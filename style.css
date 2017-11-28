@@ -180,8 +180,10 @@ nav #topnav li a:hover:not(.active) {
 	text-align: center;
 }
 
-#DJHead {
+#DJ1 {
 	font-size:60px;
 	font-weight: bold;
 	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
