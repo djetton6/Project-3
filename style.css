@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rozha+One');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text');
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -34,6 +35,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color:#EAEAEA
 }
 ol, ul {
 	list-style: none;
@@ -51,36 +53,6 @@ table {
 	border-spacing: 0;
 }
 
-#nav ul {
-	display: inline-block;
-	list-style-type: none;
-	text-align: center;
-	align-content: center;
-
-}
-
-nav {
-	margin:100px;
-	background-color:grey;
-	display: inline-block;
-	font-weight: bold;
-	text-decoration: none;
-	text-align: center;
-	width:auto;
-	padding: 20px 50px 20px 40px;
-	border-radius: 10px;
-	color:white;
-	align-content:center;
-}
-	nav,ul, a {
-		display: inline-block;
-		list-style-type: none;
-		text-align: center;
-		align-content: center;
-		width: 70%;
-	  list-style: none;
-	}
-
 header {
   align-content: center;
 
@@ -90,10 +62,12 @@ h1 {
 	font-size: 72px;
 	color: black;
 	text-align: center;
+	padding: inherit;
+	margin: auto;
 }
 
 h2 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Oswald';
 	font-size:50px;
 	padding: 4px;
 	margin:4px;
@@ -121,7 +95,6 @@ iframe {
 	margin-bottom: 15%
 
 }
-
 
 h4 {
 	font-size: 30px;
@@ -167,4 +140,48 @@ footer img {
 
 #education, h2 {
 	color: grey;
+}
+
+#topnav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 4px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#topnav li {
+    float: left;
+		list-style: none;
+		text-align: center;
+}
+
+ #topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+		list-style: none;
+}
+
+nav #topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.first-title {
+	margin-top:60px;
+	font-size: 72px;
+	color: black;
+	text-align: center;
+}
+
+#DJHead {
+	font-size:60px;
+	font-weight: bold;
+	text-align: center;
 }
