@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text');
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC');
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -58,17 +61,18 @@ header {
 
 }
 h1 {
-	font-family: 'Rozha One', serif;
-	font-size: 72px;
-	color: black;
+	font-family: 'Alegreya', serif;
+	font-size: 52px;
+	color: orange;
 	text-align: center;
-	padding: inherit;
+	padding: 5px;
 	margin: auto;
+
 }
 
 h2 {
 	font-family: 'Oswald';
-	font-size:50px;
+	font-size:34px;
 	padding: 4px;
 	margin:4px;
 
@@ -78,14 +82,16 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	font-family:sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 	padding: 2px;
 
 }
 
 body,li,ul {
-	list-style-type: disc;
-	margin-bottom: 4px;
+	list-style-type:circle;
+	margin-bottom: 8px;
+	margin-top:7px;
+
 
 }
 
@@ -97,12 +103,24 @@ iframe {
 }
 
 h4 {
-	font-size: 30px;
+	font-size: 18px;
 	font-family: serif;
 	padding-bottom: 10px;
 	margin-bottom: 5px;
 
 }
+
+h3 {
+	font-family:'Cormorant SC', serif;
+	font-size:20px;
+	padding-bottom:11px;
+	margin-bottom:6px;
+	font-weight: bold;
+	padding-top:10px;
+	margin: inherit;
+
+}
+
 #Desmend {
 	margin-bottom: 10px;
 
@@ -120,11 +138,7 @@ h4 {
 	text-align: center;
 }
 
-footer {
-	margin-top:40px;
-	font-family: sans-serif;
-	font-size: 20px
-}
+
 
 footer img {
 	display: inline-block;
@@ -135,7 +149,9 @@ footer img {
 }
 #education {
 	float: right;
-	margin-right:3%;
+	margin-left:15%;
+	padding-right:5px;
+	padding:10px;
 }
 
 #education, h2 {
@@ -145,6 +161,7 @@ footer img {
 #topnav ul {
     list-style-type: none;
     margin: 10px;
+		padding-left:12px;
     padding: 4px;
     overflow: hidden;
     background-color: #333;
@@ -154,6 +171,8 @@ footer img {
     float: left;
 		list-style: none;
 		text-align: center;
+		font-size:20px;
+		font-family:
 }
 
  #topnav li a {
@@ -166,7 +185,7 @@ footer img {
 }
 
 nav #topnav li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #FFD700;
 }
 
 .active {
@@ -187,3 +206,73 @@ nav #topnav li a:hover:not(.active) {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+#exp {
+	border-bottom-style:dotted;
+	font-size:14px;
+
+}
+
+#videos {
+	border-top:
+}
+#rugby {
+	border:4px;
+	border-style: double;
+	height:800px;
+	width:400px;
+	display: grid;
+}
+
+#vid1 {
+	display:inline-block;
+	border:4px;
+	border-style: double;
+	height:400px;
+	width:400px;
+	padding:20px;
+}
+
+#vid2 {
+	display:block;
+	border:4px;
+	border-style: double;
+	height:400px;
+	width:400px;
+	padding:20px;
+}
+
+#vid3 {
+	display:inline-block;
+	border:4px;
+	border-style: double;
+	height:400px;
+	width:400px;
+	padding:20px;
+}
+
+#exp {
+	border-bottom:solid;
+}
+#technologies {
+	border-bottom:solid;
+}
+#volunteer {
+	border-bottom:solid;
+}
+
+#hobbies {
+	border-bottom-style: dotted;
+	font-family:sans-serif;
+	font-size:18px;
+	border-color: white;
+	font-display: block;
+	padding:10px 7px 7px 10px;
+}
+#interests {
+	border-bottom-style: dotted;
+	font-family:sans-serif;
+	font-size:18px;
+	border-color: white;
+	font-display: block;
+	padding:10px 7px 7px 10px;
